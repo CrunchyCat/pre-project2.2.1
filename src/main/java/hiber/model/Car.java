@@ -18,8 +18,6 @@ public class Car {
     @MapsId
     private User user;
 
-
-
     public User getUser() {
         return user;
     }

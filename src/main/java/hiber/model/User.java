@@ -22,6 +22,13 @@ public class User {
    @JoinColumn(name = "car_id")
    private Car car;
 
+
+
+
+
+
+   
+
    public User() {}
    
    public User(String firstName, String lastName, String email) {

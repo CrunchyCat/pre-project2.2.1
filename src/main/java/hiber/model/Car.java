@@ -16,6 +16,10 @@ public class Car {
     @Column(name = "series")
     private int series;
 
+    @OneToOne
+    @JoinColumn(name = "id")
+    @MapsId
+    private User user;
 
 
 

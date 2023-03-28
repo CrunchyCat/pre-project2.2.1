@@ -16,7 +16,7 @@ public class MainApp {
       AnnotationConfigApplicationContext context = 
             new AnnotationConfigApplicationContext(AppConfig.class);
 
-      UserService userService = context.getBean(UserService.class);
+      /*UserService userService = context.getBean(UserService.class);
 
       Car car1 = new Car("BMW", 123456);
       Car car2 = new Car("Audi", 987650);
@@ -48,7 +48,7 @@ public class MainApp {
       }
 
       User user = userService.getUser("Skoda", 567849);
-      System.out.println(user);
+      System.out.println(user);*/
 
 
 

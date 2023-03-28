@@ -20,6 +20,7 @@ public class User {
    private String email;
 
    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
+   @JoinColumn(nullable = true)
    private Car car;
 
    public User() {}
